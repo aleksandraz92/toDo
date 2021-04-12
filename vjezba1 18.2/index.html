@@ -1,0 +1,66 @@
+<html>
+
+<head>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet">
+
+<script src="https://jsuites.net/v4/jsuites.js"></script>
+<script src="https://jsuites.net/v4/jsuites.webcomponents.js"></script>
+<link rel="stylesheet" href="https://jsuites.net/v4/jsuites.css" type="text/css" />
+
+</head>
+
+
+<body>
+
+<div class="container">
+  
+   <div class="addNewTask">
+        <h1>TO DO List</h1>
+        <br>
+       <label> Add New Task</label>
+       <input type="text" id="newTask" placeholder="e.g. Learn JS...">
+       <span id="span1"> Add more info </span>
+       <input type="text" id="moreInfo">
+       <label>Check if important! </label>
+       <input type="checkbox" id="ifImportant">
+       <button id="addTaskButton"><b>Add Task</b></button>
+       <p>
+           <br>
+           <label> Add deadline for this task !</label>
+           <jsuites-calendar  format = "DD-MMM-YYYY" time="true"></jsuites-calendar>
+
+       </p>
+
+
+   </div>
+   <div class="addedList"> 
+      <h2> List to do</h2>
+      <ul> 
+
+      </ul>
+      <label>Total Size :</label>
+      <button id="totalTasks"><b>See</b></button>
+      <button id="hideButton"><b>Close</b></button>
+
+      <p id="numberofTasks"></p>
+    </div>
+   <div class="finishedList"> 
+        <h2> Finished Tasks</h2>
+        <ul> 
+            
+        </ul>
+      
+        <button id="deletedNmTask"><b>Number of deleted tasks</b></button>
+        <h1 id="deletedTask"></h1>
+
+     </div>
+</div>
+  
+
+<script src="app.js"></script>
+
+</body>
+
+
+</html>

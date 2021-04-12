@@ -1,0 +1,164 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+.container{
+    
+    background-color:aliceblue;
+    font-family: 'Indie Flower', cursive;
+    max-width: 1400px;
+    height: 1400px;
+    float: center;
+    margin: 0 auto ;
+}
+.addNewTask{
+    text-align: center;
+    padding-bottom: 50px;
+    padding-top: 20px;
+
+}
+
+#span1{
+    padding: 10px;
+}
+.addedList{
+ padding-top: 15px;
+ height: 800px;
+ float: left;
+ text-align: center;
+ margin-left: 80px;
+ background-color: bisque;
+ width:500px;
+ justify-content:  center;
+ border-radius: 10px;
+ 
+}
+
+.finishedList{
+padding-top: 15px;
+height: 800px;
+width:500px;
+justify-content:  center;
+text-align: center;
+border-radius: 10px;
+
+float: right;
+margin-right: 80px;
+background-color:#75E6DA;
+}
+ul{
+    list-style: none;
+    padding:5px;
+    text-align: left;
+}
+
+li{
+    padding:5px;
+
+}
+.delete{
+    position: absolute;
+    right: 300px;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    border:none;
+    width: 80px;
+    background-color:rgb(72, 226, 211);
+    font-family: 'Indie Flower', cursive;
+    transition-duration: 0.4s;
+
+}
+.delete:hover{
+    background: white!important;
+    color: black!important;
+}
+#addTaskButton{
+    font-family: 'Indie Flower', cursive;
+    border-radius: 50px;
+    background-color: #AAEAEA;
+    width: 140px;
+    box-shadow: 0 8px 6px -6px black;
+    transition-duration: 0.4s;
+}
+#addTaskButton:hover{
+    background: white!important;
+    color: black!important;
+}
+
+#hideButton{
+    font-family: 'Indie Flower', cursive;
+    width: 80px;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    background-color: rgb(252, 220, 181);
+    border:none;
+    transition-duration: 0.4s;
+
+}
+#hideButton:hover{
+    background: white!important;
+    color: black!important;
+}
+#totalTasks{
+    font-family: 'Indie Flower', cursive;
+    width: 80px;
+    box-shadow: 0 8px 6px -6px black;
+    background-color: rgb(252, 220, 181);
+    border-radius: 10px;
+    border:none;
+    transition-duration: 0.4s;
+
+  
+}
+#totalTasks:hover{
+    background: white!important;
+    color: black!important;
+    border-style: solid 1px black ;
+}
+#newTask{
+    font-family: 'Indie Flower', cursive;
+    border-radius: 50px;
+    opacity:0.8;
+}
+#moreInfo{
+    border-radius: 50px;
+    opacity:0.8;
+   
+}
+
+#deletedNmTask{
+    position: center;
+    right: 300px;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    border:none;
+    width: 200px;
+    background-color:rgb(72, 226, 211);
+    font-family: 'Indie Flower', cursive;
+    transition-duration: 0.4s;
+}
+#deletedNmTask:hover{
+    background: white!important;
+    color: black!important;
+    border-style: solid 1px black ;
+}
+
+.edit{
+    float: right;
+    box-shadow: 0 8px 6px -6px black;
+    border-radius: 10px;
+    border:none;
+    width: 80px;
+    background-color:rgb(228, 174, 152);
+    font-family: 'Indie Flower', cursive;
+    transition-duration: 0.4s;
+
+}
+.edit:hover{
+    background: white!important;
+    color: black!important;
+    border-style: solid 1px black ;
+}
